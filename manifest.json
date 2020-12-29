@@ -1,17 +1,17 @@
 {
-    "name" : "Rajat Shrivastava",
-    "short_name" : "Rajat Shrivastava",
+    "name" : "Pratik Mehta",
+    "short_name" : "Pratik Mehta",
     "lang": "en-US",
     "categories": ["education"],
     "icons": [
       {
-        "src" : "img/pwa-192x192.png",
+        "src" : "img/Logo.png",
         "type": "image/png",
         "sizes": "192x192"
       }
      
     ],
-    "description": "Rajat Shrivastava is a student of B.Tech Second year in Abes Engineering College. Know more about him.",
+    "description": "Pratik Mehta had completed his B.Tech in Computer Science and Engineering from S.R.M. Institute of Science and Technology,Kattankulathur. Know more about him.",
     "start_url" : "/",
     "background_color" : "#48C9B0",
     "display" : "standalone",
