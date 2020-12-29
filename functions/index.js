@@ -4,12 +4,12 @@ const nodemailer = require('nodemailer');
 const cors = require('cors')({origin:true});
 admin.initializeApp();
 let transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: 'gmail', 'outlook',
     port:465,
     secure:true,
     auth: {
-        user: 'rajat.18bcs1184@abes.ac.in',
-        pass: 'Rajat@123'
+        user: 'pratikmehta123@outlook.com',
+        pass: 'Six19'
     }
 });
 
@@ -20,9 +20,9 @@ exports.sendMail = functions.https.onRequest((req, res) => {
        const sender = req.query.sender;
         const content = req.query.content;
         const mailOptions = {
-            from: sender, // Something like: Jane Doe <janedoe@gmail.com>
-            to: 'rajat123468@gmail.com',
-            subject: 'Contact request from https://knowrajatmore.web.app', // email subject
+            from: sender, // Something like: Jane Doe <Hello@gmail.com>
+            to: 'pratikmehta123@outlook.com',
+            subject: 'Contact request from https://knowPratikmore.web.app', // email subject
             html: `<p style="font-size: 16px;">`+content+`</p>`
         };
         // returning result
