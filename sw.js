@@ -1,4 +1,4 @@
-var CACHE_NAME = 'rajat-cache-v1';
+var CACHE_NAME = 'Pratik-cache-v1';
 var urlsToCache = [
   '/',
   
