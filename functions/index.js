@@ -22,7 +22,7 @@ exports.sendMail = functions.https.onRequest((req, res) => {
         const mailOptions = {
             from: sender, // Something like: Jane Doe <Hello@gmail.com>
             to: 'pratikmehta123@outlook.com',
-            subject: 'Contact request from https://knowPratikmore.web.app', // email subject
+            subject: 'Contact request from https://knowpratikmore.web.app', // email subject
             html: `<p style="font-size: 16px;">`+content+`</p>`
         };
         // returning result
