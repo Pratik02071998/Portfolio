@@ -1,4 +1,3 @@
-
 .loadcon{
 	position:fixed;
 	width:100%;
@@ -1242,7 +1241,7 @@ progress[value] {
       box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
     
     /* Of all IE, only IE10 supports progress element that too partially. It only allows to change the background-color of the progress value using the 'color' attribute. */
-    color: orange;
+    color: royalblue;
     
     
     margin: 0 0 1.5em; 
